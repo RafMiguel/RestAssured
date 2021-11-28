@@ -1,5 +1,6 @@
-#language: pt
 #encoding: utf-8
+#language: pt
+
 
 Funcionalidade: Validar informações de uma API simples
 
@@ -8,7 +9,7 @@ Funcionalidade: Validar informações de uma API simples
     Dado que eu entre na API "https://restapi.wcaquino.me/users/"
     Quando eu pesquisar por um cliente na API <id>
     E eu verificar a existencia do cliente na base de dados <id> <name> <age>
-    Entao o cliente está cadastrado
+    Entao o cliente esta cadastrado
 
     Exemplos:
       | id | name             | age |
