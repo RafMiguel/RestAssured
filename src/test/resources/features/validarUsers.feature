@@ -1,4 +1,5 @@
 #language: pt
+#encoding: utf-8
 
 Funcionalidade: Validar informações de uma API simples
 
