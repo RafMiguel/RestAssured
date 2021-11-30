@@ -1,4 +1,4 @@
-package steps;
+package steps.WCAquino;
 
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
@@ -7,7 +7,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 
-public class Steps {
+public class WCAquinoSteps {
 
     Response response;
     String url;

@@ -1,4 +1,4 @@
-package runner;
+package runner.WCAquino;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -10,12 +10,14 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         glue = "steps",
         monochrome = true,
-        plugin = {"pretty", "html:target/cucumber-report/report.html", "json:target/cucumber.json"}
+        plugin = {"pretty", "html:target/cucumber-report/WCAquino/report.html", "json:target/WCAquino/cucumber.json"}
 
 
 
 
 )
 
-public class RunTest {
+public class RunnerWC {
+
+
 }
