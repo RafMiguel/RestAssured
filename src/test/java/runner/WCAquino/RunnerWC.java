@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        features = "src/test/resources",
-        glue = "steps",
+        features = "src/test/resources/features/WCAquino/",
+        glue = "steps/WCAquino",
         monochrome = true,
-        plugin = {"pretty", "html:target/cucumber-report/WCAquino/report.html", "json:target/WCAquino/cucumber.json"}
+        plugin = {"pretty", "html:target/cucumber-report/WCAquino/report.html", "json:target/cucumber-report/WCAquino/cucumber.json"}
 
 
 

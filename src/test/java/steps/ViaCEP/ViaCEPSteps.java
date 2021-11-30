@@ -4,18 +4,10 @@ import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Quando;
 import io.restassured.RestAssured;
-import io.restassured.http.Method;
 import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
 import metods.ViaCEP.ViaCEPMetodos;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
-import response.ViaCEP.ViaCEPResponse;
-
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 public class ViaCEPSteps {
 
@@ -24,15 +16,10 @@ public class ViaCEPSteps {
 
 
     ViaCEPMetodos viaCEPMetodos = new ViaCEPMetodos();
-    ViaCEPResponse viacepresp = new ViaCEPResponse();
 
     @Dado("que eu entre na URL {string}")
     public void que_eu_entre_na_url(String args0) {
         url = args0;
-    }
-
-    {
-
     }
 
     @Quando("eu consultar o CEP {string}")
