@@ -1,5 +1,5 @@
 #language: pt
-  #encoding: utf-8
+  #encoding: utf-8 
 
 @validarCEP
 Funcionalidade: Validar CEP baseado em parâmetros
